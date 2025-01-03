@@ -1,5 +1,5 @@
 # EduResultChain  
-
+![EduResultChain](https://repository-images.githubusercontent.com/911555839/abf47f4d-b8e1-4c6d-83ac-feda7e09d407)
 EduResultChain is an innovative blockchain-based Result and Education Management System (BREMS) designed to securely manage, store, and verify academic results, certificates, and mark sheets. This web application leverages modern web technologies and Ethereum blockchain to ensure transparency, scalability, and data integrity for educational institutions and students.  
 
 ---
