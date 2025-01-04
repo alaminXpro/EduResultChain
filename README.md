@@ -1,95 +1,138 @@
 # EduResultChain  
-![EduResultChain](https://repository-images.githubusercontent.com/911555839/abf47f4d-b8e1-4c6d-83ac-feda7e09d407)
-EduResultChain is an innovative blockchain-based Result and Education Management System (BREMS) designed to securely manage, store, and verify academic results, certificates, and mark sheets. This web application leverages modern web technologies and Ethereum blockchain to ensure transparency, scalability, and data integrity for educational institutions and students.  
+<p align="center">
+    <a href="https://github.com/alaminXpro/EduResultChain/actions">
+      <img alt="Tests Passing" src="https://github.com/anuraghazra/github-readme-stats/workflows/Test/badge.svg" />
+    </a>
+    <a href="https://github.com/alaminXpro/EduResultChain/graphs/contributors">
+      <img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/alaminXpro/EduResultChain" />
+    </a>
+    <a href="https://github.com/alaminXpro/EduResultChain/graphs/traffic">
+      <img alt="Repo View" src="https://komarev.com/ghpvc/?username=alaminxpro&label=Profile%20views&color=0e75b6&style=flat" />
+    </a>
+    <a href="https://github.com/anuraghazra/github-readme-stats/issues">
+      <img alt="Issues" src="https://img.shields.io/github/issues/alaminXpro/EduResultChain?color=0088ff" />
+    </a>
+    <a href="https://github.com/anuraghazra/github-readme-stats/pulls">
+      <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/alaminXpro/EduResultChain?color=0088ff" />
+    </a>
+  </p>
+  
+![EduResultChain](https://repository-images.githubusercontent.com/911555839/abf47f4d-b8e1-4c6d-83ac-feda7e09d407)  
+EduResultChain is an innovative blockchain-based Result and Education Management System (BREMS) designed to securely manage, store, and verify academic results, certificates, and mark sheets. This web application leverages modern web technologies and Ethereum blockchain to ensure transparency, scalability, and data integrity for educational institutions and students.
 
 ---
 
-## **Project Objective**  
+## **Team Members**  
+
+| Name                     | Roll Number   | Email                  | Role                                       |
+|---------------------------|---------------|------------------------|--------------------------------------------|
+| MD. AL AMIN              | 20220104154   | alamin.cse.20220104154@aust.edu     | Lead, Blockchain, Full-stack Developer     |
+| Harique Rahman Jaif      | 20220104153   | harique.cse.20220104153@aust.edu    | Project Manager                            |
+| Jamil Jim                | 20220104139   | ashadullah.cse.20220104139@aust.edu      | Front-end Developer                        |
+
+---
+
+## **Project Overview**  
+
+### **Project Title**  
+**EduResultChain**  
+
+### **Objective**  
 To create a secure and efficient platform for managing academic records, where blockchain technology guarantees authenticity, immutability, and trust in the verification process.  
 
----
+### **Target Audience**  
+Educational institutions, students, and regulatory bodies requiring secure academic record management and verification.  
 
-## **Key Features**  
-
-1. **Data Entry**  
-   - Bulk upload and manual entry for student records.  
-
-2. **Result Management**  
-   - Add, update, and manage academic results with audit logs for transparency.  
-
-3. **Verification**  
-   - Blockchain-powered verification for certificates and marksheets with unique QR codes.  
-
-4. **Certificate and Marksheet PDF Generation**  
-   - Generate downloadable PDF versions of certificates and marksheets with embedded blockchain verification links.  
-
-5. **Result Statistics and Rankings**  
-   - Institution-wise, division-wise, country-wide, and category-based performance analytics.  
-
-6. **Recheck/Revalidation/Challenge Applications**  
-   - Online applications for result reviews with integrated payment options.  
-
-7. **Information Correction**  
-   - Process correction requests for academic records, requiring multi-signature approvals and payment.  
-
-8. **Blockchain Integration**  
-   - Immutable storage of academic data and smart contracts for secure updates and version control.  
-
-9. **Version Control for Certificates**  
-   - Maintain historical versions of certificates for audit and traceability.  
-
-10. **Result Publishing Scheduler**  
-    - Automate result announcements at pre-scheduled times.  
-
----
-
-## **Technology Stack**  
+### **Tech Stack**  
 
 | Component       | Technology              |
 |------------------|--------------------------|
+| **Backend**     | Laravel (mandatory)     |
 | **Frontend**    | Next.js                 |
-| **Backend API** | Laravel                 |
 | **Database**    | MySQL                   |
 | **Blockchain**  | Ethereum (Smart Contracts) |
+| **Rendering**   | Server-Side Rendering (SSR) |
 
 ---
 
-## **Proposed Workflow**  
+## **UI Design**  
 
-1. **Data Entry**  
-   - Institutions input student data and results via a secure admin panel.  
-
-2. **Result Management**  
-   - Results are processed, updated, and stored with audit logs to ensure accountability.  
-
-3. **Blockchain Integration**  
-   - Final results, certificates, and marksheets are hashed and stored on the Ethereum blockchain.  
-
-4. **Verification**  
-   - Each certificate/marksheet includes a QR code that links to its blockchain record for instant verification.  
-
-5. **Result Publishing and Analysis**  
-   - Scheduled result publishing and detailed analytics for performance insights.  
+We are currently designing the user interface using Figma. You can view our mock UI [here](#).  
 
 ---
 
-## **Benefits**  
+## **Project Features**  
 
-- **Trust and Transparency:** Blockchain ensures tamper-proof records and public verification.  
-- **Efficiency:** Automate result management, certificate generation, and publishing.  
-- **Scalability:** Support multiple institutions and diverse datasets.  
-- **Accountability:** Multi-level approvals and audit logs for secure operations.  
+### **Landing Page**  
+- Home Page  
+- About Us  
+- Contact Us  
+- Privacy Policy  
+- Terms & Conditions  
+- Result Page  
+- Result Verification  
+- Notice Board  
+- Frequently Asked Questions  
+- Apply for Result Revalidation  
+- Basic Result Statistics  
+
+### **Dashboard Features**  
+
+#### **Student**  
+- View Result & Download web version marksheet  
+- Download Certificate (Grade Sheet)  
+- Download Marksheet  
+- Apply for Result Revalidation (Payment Needed)  
+- Check Result Status on Blockchain  
+
+#### **Institution**  
+- Data Entry of Students  
+- Add, Update, Delete Student and Result Entries  
+- Upload Results to Blockchain  
+- Handle Result Revalidation Requests from Students  
+- Access Institution-specific Result Statistics  
+
+#### **Admin**  
+- Approve or Reject Institution Verification Requests  
+- Manage Institution Records  
+- Schedule Result Publications  
+- Blockchain Integration for Result Verification  
+
+### **API Endpoints**  
+
+| Method | Endpoint                     | Description                            |
+|--------|-------------------------------|----------------------------------------|
+| GET    | `/result/:id`                | Fetch a specific result by ID          |
+| POST   | `/institution/student`       | Add a new student                      |
+| PUT    | `/institution/result/:id`    | Update an existing result entry        |
+| DELETE | `/institution/student/:id`   | Remove a student                       |
 
 ---
 
-## **Future Scope**  
+## **Milestones**  
 
-- Mobile app integration for students and institutions.  
-- Multi-language support (including Bangla).  
-- Advanced analytics for educators and policymakers.  
+### **Milestone 1**  
+- Set up the project environment and initialize the tech stack.  
+- Design mock UI for landing pages and dashboard using Figma.  
+- Create database schemas for students, results, and institutions.  
+
+### **Milestone 2**  
+- Implement user authentication (registration & login).  
+- Develop CRUD operations for student and result management.  
+- Integrate Ethereum blockchain for certificate and result verification.  
+
+### **Milestone 3**  
+- Complete result statistics and analysis features.  
+- Finalize UI/UX with responsive design.  
+- Deploy the web application and conduct testing for scalability and security.  
 
 ---
 
+## **Demo**  
+
+A live demo of the application will be available soon. Stay tuned for updates!  
+
+---
 ## **Contributing**  
 We welcome contributions from developers and researchers! Please fork the repository and submit a pull request for review.  
 <a href="https://github.com/alaminXpro/EduResultChain/graphs/contributors">
@@ -104,8 +147,8 @@ This project is licensed under the [MIT License](LICENSE).
 ---
 
 ## **Contact**  
+
 For further inquiries or feedback, please contact:  
-- **Project Manager:** [MD. AL AMIN](https://www.linkedin.com/in/alaminxpro/)
-- **Lead Developer:** [Harique Rahman Jaif]
-- **Back-end Developer:** [MD. AL AMIN]
-- **Front-end Developer:** [Harique Rahman Jaif, Jamil Jim, MD. AL AMIN]
+- **Lead Developer:** [MD. AL AMIN](https://www.linkedin.com/in/alaminxpro/)  
+- **Project Manager:** [Harique Rahman Jaif](mailto:harique.cse.20220104153@aust.edu)  
+- **Front-end Developer:** [Jamil Jim](mailto:ashadullah.cse.20220104139@aust.edu)  
