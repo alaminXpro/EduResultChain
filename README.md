@@ -129,8 +129,9 @@ We are currently designing the user interface using Figma. You can view our mock
 ---
 
 ## **Demo**  
+Check out our live demo: [EduResultChain Demo](https://eduresultchain.vercel.app/)
 
-A live demo of the application will be available soon. Stay tuned for updates!  
+Experience the features and functionalities of our blockchain-based result management system firsthand.
 
 ---
 ## **Contributing**  
@@ -142,7 +143,7 @@ We welcome contributions from developers and researchers! Please fork the reposi
 ---
 
 ## **License**  
-This project is licensed under the [MIT License](LICENSE).  
+This project is licensed under the [GPL License](LICENSE).  
 
 ---
 
