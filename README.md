@@ -5,7 +5,7 @@
       <img alt="Tests Passing" src="https://github.com/anuraghazra/github-readme-stats/workflows/Test/badge.svg" />
     </a>
     <a href="https://github.com/alaminXpro/EduResultChain/graphs/contributors">
-      <img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/alaminXpro/EduResultChain" />
+      <img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/alaminXpro/EduResultChain-client" />
     </a>
     <a href="https://github.com/alaminXpro/EduResultChain/graphs/traffic">
       <img alt="Repo View" src="https://komarev.com/ghpvc/?username=alaminxpro&label=Profile%20views&color=0e75b6&style=flat" />
@@ -26,17 +26,17 @@ EduResultChain is an innovative blockchain-based Result and Education Management
 
 ## Table of Contents
 
-- [👥 Team Members](#team-members)
-- [📄 Project Overview](#project-overview)
-- [🛠️ Tech Stack](#tech-stack)
-- [🎨 UI Design](#ui-design)
-- [🚀 Project Features](#project-features)
-- [🔗 API Endpoints](#api-endpoints)
-- [📅 Milestones](#milestones)
-- [🌐 Demo](#demo)
-- [🤝 Contributing](#contributing)
-- [📜 License](#license)
-- [📞 Contact](#contact)
+- [👥 Team Members](#-team-members)
+- [📄 Project Overview](#-project-overview)
+- [🛠️ Tech Stack](#%EF%B8%8F-tech-stack)
+- [🎨 UI Design](#-ui-design)
+- [🚀 Project Features](#-project-features)
+- [🔗 API Endpoints](#-api-endpoints)
+- [📅 Milestones](#-milestones)
+- [🌐 Demo](#-demo)
+- [🤝 Contributing](#-contributing)
+- [📜 License](#-license)
+- [📞 Contact](#-contact)
 
 ---
 
