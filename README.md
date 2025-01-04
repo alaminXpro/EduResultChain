@@ -57,7 +57,7 @@ Educational institutions, students, and regulatory bodies requiring secure acade
 
 ## **UI Design**  
 
-We are currently designing the user interface using Figma. You can view our mock UI [here](#).  
+We are currently designing the user interface using Figma. You can view our mock UI [here](https://www.canva.com/design/DAGbN0-R5Mk/X8LfC9UECSmnzG8pXztfpw/view?mode=prototype).  
 
 ---
 
