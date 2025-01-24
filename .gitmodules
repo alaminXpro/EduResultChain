@@ -1,3 +1,7 @@
 [submodule "client"]
   path = client
   url = https://github.com/alaminXpro/EduResultChain-client.git
+
+[submodule "api"]
+	path = api
+	url = https://github.com/alaminXpro/EduResultChain-api.git
